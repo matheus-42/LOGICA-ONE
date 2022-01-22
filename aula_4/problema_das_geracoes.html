@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var idadeBrasil = (2022 - 1500);
+	var quantidadeGeracoes = Math.round(idadeBrasil / 28);
+
+	mostra("Sabendo que de 1500 à 2022 se passaram " + idadeBrasil + " anos");
+	mostra("Levando em consideração a média de 28 anos podemos dizer que se passarm " + quantidadeGeracoes + " gerações desde então.");
+</script>
